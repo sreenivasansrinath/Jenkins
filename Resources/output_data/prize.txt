@@ -1,0 +1,2 @@
+Name= Apple Cinema 30"
+Prize= 90.00

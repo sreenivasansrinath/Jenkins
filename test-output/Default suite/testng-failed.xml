@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.wipro.testcases.TC04">
+        <methods>
+          <include name="log_out2"/>
+          <include name="screenshot07"/>
+          <include name="base"/>
+        </methods>
+      </class> <!-- com.wipro.testcases.TC04 -->
+      <class name="com.wipro.testcases.TC03">
+        <methods>
+          <include name="log_out1"/>
+          <include name="log_in" invocation-numbers="0"/>
+          <include name="components_menu"/>
+          <include name="myaccount_1"/>
+          <include name="fetch_name"/>
+          <include name="base"/>
+          <include name="screenshot02"/>
+        </methods>
+      </class> <!-- com.wipro.testcases.TC03 -->
+      <class name="com.wipro.testcases.TC02">
+        <methods>
+          <include name="screenshot02"/>
+          <include name="edit_account"/>
+          <include name="myaccount_1"/>
+          <include name="log_out"/>
+          <include name="log_in" invocation-numbers="0"/>
+          <include name="base"/>
+          <include name="screenshot03"/>
+        </methods>
+      </class> <!-- com.wipro.testcases.TC02 -->
+      <class name="com.wipro.testcases.TC05">
+        <methods>
+          <include name="log_out3"/>
+          <include name="log_in" invocation-numbers="0"/>
+          <include name="myaccount_1"/>
+          <include name="fav_brand"/>
+          <include name="your_store"/>
+          <include name="screenshot15"/>
+          <include name="base"/>
+        </methods>
+      </class> <!-- com.wipro.testcases.TC05 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
